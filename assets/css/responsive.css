@@ -1,0 +1,712 @@
+
+
+/*
+===================================================================
+Theme Name:  Asocade Portfolio HTML Template.
+Author:Aman Nur.
+Description: Creative portfolio one page  HTML5 template.
+Version: 1.0
+=================================================================
+*/
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/*    Xl-Normal Laptop/Desktop Layout: 1200px. 
+-------------------------------------------------------------------------------
+*/
+
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+   .main_menu ul:last-child {
+      margin-right: 20px;
+   }
+   .fixed-top {
+      padding-bottom: 0;
+   }
+}
+
+
+/* ---------------------------------------------------------- */
+
+@media (min-width: 1200px) {
+   .container {
+      max-width: 1200px;
+   }
+}
+
+
+/* ---------------------------------------------------------- */
+
+@media (max-width: 1199px) {
+   .container {
+      max-width: 100%;
+   }
+}
+
+
+/*    Lg Normal Deafult Layout: 992px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------  */
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+   .main_menu .logo img {
+      left: 8%;
+   }
+   .profile-list {
+      margin-top: 20px;
+   }
+   .main_menu ul li a {
+      font-size: 14px;
+   }
+   .cta-area h2 {
+      font-size: 35px !important;
+   }
+   .single-team-item .mc-footer a {
+      width: 45px;
+      height: 45px;
+      font-size: 17px;
+      line-height: 45px;
+      text-align: center;
+   }
+   .fixed-top {
+      padding-bottom: 0;
+   }
+   .about-frame .info_content h2 {
+      font-size: 30px;
+   }
+   .about-frame .info_content p {
+      padding: 0 40px;
+   }
+   .single-skill-bar h3 {
+      font-size: 23px;
+   }
+   .grid-item:nth-child(2n) {
+      height: 300px;
+   }
+   .grid-item:nth-child(3n) {
+      height: 200px;
+   }
+   .grid-item:nth-child(4n) {
+      height: 300px;
+   }
+   .grid-item:nth-child(5n) {
+      height: 200px;
+   }
+   .grid-item:nth-child(5) {
+      height: 170px;
+   }
+   .grid-item:nth-child(10) {
+      height: 300px;
+   }
+   .grid-item:nth-child(14) {
+      height: 170px;
+   }
+}
+
+
+/*    Md Tablet Layout: 992px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------  */
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .profile-list {
+      margin-top: 20px;
+   }
+   .about-image {
+      margin-bottom: 20px;
+   }
+   .about-description h4 {
+      font-size: 14px;
+   }
+   .section-padding {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+   .main_menu {
+      height: 55px;
+   }
+   .main_menu .logo img {
+      width: 130px;
+      left: 6%;
+   }
+   .main_menu ul li a {
+      font-size: 17px;
+   }
+   .main_menu label {
+      display: block;
+      margin-bottom: 25px;
+   }
+   .main_menu label #btn {
+      display: block;
+   }
+   .main_menu ul {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0, 0, 0, .78);
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      -webkit-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+      z-index: 999999;
+   }
+   .main_menu ul li {
+      display: block;
+      margin: 30px 0;
+      line-height: 30px;
+   }
+   .main_menu ul li a {
+      font-size: 20px;
+   }
+   #check:checked~ul {
+      left: 0;
+   }
+   #check:checked~label #btn {
+      display: none;
+   }
+   #check:checked~label #cancel {
+      display: block;
+   }
+   .padd-box {
+      padding-left: 150px;
+   }
+   .cta-area h2 {
+      font-size: 30px;
+   }
+   .single-team-item .mc-footer a {
+      width: 38px;
+      height: 38px;
+      font-size: 17px;
+      line-height: 38px;
+      text-align: center;
+      margin-left: 0;
+   }
+   #scrollUp {
+      bottom: 30px;
+      right: 30px;
+   }
+   .pad-box {
+      padding-left: 20%;
+   }
+   .about-frame .info_content h2 {
+      font-size: 25px;
+   }
+   .about-frame .info_content p {
+      padding: 0 20px;
+   }
+   .single-skill-bar h3 {
+      font-size: 17px;
+   }
+   .skill-count-number {
+      font-size: 35px;
+      line-height: 35px;
+      margin-top: -17px;
+   }
+   .item:nth-child(1) {
+      height: 280px;
+   }
+   .item:nth-child(3) {
+      height: 280px;
+   }
+   .item:nth-child(5) {
+      height: 320px;
+   }
+   .item:nth-child(7) {
+      height: 360px;
+   }
+   .single-team-item .mc-btn-action {
+      right: 10px;
+      top: 20px;
+   }
+}
+
+
+/*    Small Mobile Layout: 320px.
+    Gutters: 24px.
+    Outer margins: 34px.
+    Inherits styles from: Default Layout.
+---------------------------------------------  */
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+   .main_menu .logo img {
+      width: 100px;
+   }
+   label #btn,
+   label #cancel {
+      font-size: 20px;
+   }
+   .about-image {
+      margin-bottom: 20px;
+   }
+   .main_menu {
+      height: 40px;
+   }
+   .main_menu label {
+      display: block;
+      margin-bottom: 25px;
+   }
+   .main_menu label #btn {
+      display: block;
+   }
+   .main_menu ul {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.78);
+      top: 65px;
+      left: -100%;
+      text-align: center;
+      -webkit-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+      z-index: 9999999;
+   }
+   .main_menu ul li {
+      display: block;
+      margin: 25px 0;
+      line-height: 30px;
+   }
+   .main_menu ul li a {
+      font-size: 20px;
+   }
+   #check:checked~ul {
+      left: 0;
+   }
+   #check:checked~label #btn {
+      display: none;
+   }
+   #check:checked~label #cancel {
+      display: block;
+   }
+   .padd-box {
+      padding-left: 15px;
+   }
+   .padd-box {
+      padding-left: 15px;
+   }
+   .hero_title .social_icons ul li a {
+      font-size: 19px;
+   }
+   .single-team-item.mc-active {
+      padding-bottom: 0;
+      height: auto;
+   }
+   .single-team-item.mc-active .mc-content {
+      position: relative;
+      margin-right: 16px;
+   }
+   .main_menu .logo img {
+      width: 100px;
+   }
+   .single-team-item.mc-active .mc-description {
+      position: relative;
+      top: auto;
+      right: auto;
+      left: auto;
+      padding: 50px 30px 70px 30px;
+      bottom: 0;
+   }
+   .typed {
+      font-size: 26px;
+   }
+   .hero_title .another-1 {
+      font-size: 26px;
+   }
+   .header-area {
+      height: 580px;
+   }
+   .hero_title .social_icons ul li {
+      display: inline-block;
+      margin: 5px auto;
+      margin-right: 19px;
+   }
+   .hire-btn {
+      text-align: left;
+      margin: 20px auto;
+   }
+   .about-name {
+      font-size: 24px;
+      height: 130px;
+   }
+   .aboutMain {
+      padding: 20px 20px;
+   }
+   .about-info ul .tab {
+      float: left;
+   }
+   .about-frame .info_content h2 {
+      font-size: 14px;
+   }
+   .about-frame .info_content {
+      padding: 20px;
+   }
+   .aboutMain {
+      height: 800px;
+   }
+   .section_padd {
+      padding-bottom: 0;
+   }
+   .cta-area h2 {
+      font-size: 20px;
+   }
+   .cta-area p {
+      font-size: 18px;
+   }
+   .single-team-item {
+      margin-bottom: 90px;
+   }
+   .blog-section .card {
+      margin-bottom: 20px;
+   }
+   .single-team-item .mc-footer a {
+      width: 45px;
+      height: 45px;
+      font-size: 17px;
+      line-height: 45px;
+      text-align: center;
+   }
+   .skill-count-number {
+      font-size: 30px;
+      line-height: 28px;
+      margin-top: -15px;
+   }
+   #scrollUp {
+      bottom: 30px;
+      right: 30px;
+   }
+   .pad-box {
+      padding-left: 8%;
+   }
+   .about-frame .info_content h2 {
+      font-size: 18px;
+   }
+   .about-frame .info_content p {
+      padding: 0;
+      text-align: justify;
+   }
+   .profile-list {
+      width: 100%;
+   }
+   .tab_name {
+      font-size: 11px;
+      float: ;
+   }
+   .profile-list .cont {}
+   .pricing-wrap .plan {
+      margin-bottom: 20px;
+   }
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+}
+
+
+/*   sm Wide Mobile Layout : 480px.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   .main_menu {
+      height: 55px;
+   }
+   .main_menu ul {
+      top: 80px;
+   }
+   .main_menu .logo img {
+      width: 150px;
+   }
+   label #btn,
+   label #cancel {
+      font-size: 30px;
+   }
+   .padd-box {
+      padding-left: 60px;
+   }
+   .typed {
+      font-size: 32px;
+   }
+   .hero_title .another-1 {
+      font-size: 32px;
+   }
+   .hire-btn {
+      text-align: left;
+   }
+   .hero_title .social_icons ul li a {
+      font-size: 12px;
+   }
+   .cta-area h2 {
+      font-size: 26px;
+   }
+   .about-description h4 {
+      font-size: 16px;
+   }
+   .aboutMain {
+      height: 570px;
+   }
+   .single-team-item .mc-footer a {
+      width: 40px;
+      height: 40px;
+      font-size: 17px;
+      line-height: 40px;
+      text-align: center;
+   }
+   .pad-box {
+      padding-left: 15%;
+   }
+   .about-frame .info_content h2 {
+      font-size: 14px;
+   }
+   .about-frame .info_content p {
+      padding: 0px;
+      font-size: 12px;
+   }
+   .profile-list {
+      width: 100%;
+   }
+   .about-frame .info_content {
+      margin-top: 15px;
+   }
+   .tab_name {
+      font-size: 14px;
+   }
+   .single-skill-bar h3 {
+      font-size: 20px;
+   }
+}
+
+
+/* mobile............ */
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+   .aboutMain {
+      height: 650px;
+   }
+   .main_menu ul {
+      top: 75px;
+   }
+   .skill>p {
+      font-size: 12px;
+   }
+   .skill-bar span,
+   .skill-bar-right span {
+      font-size: 12px;
+   }
+   #skill .row {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   .main_menu {
+      height: 50px;
+   }
+   .main_menu .logo img {
+      width: 130px;
+   }
+   label #btn,
+   label #cancel {
+      font-size: 25px;
+   }
+   .padd-box {
+      padding-left: 15px;
+   }
+   .hero_title .social_icons ul li a {
+      font-size: 12px;
+   }
+   .typed {
+      font-size: 24px;
+   }
+   .hero_title .another-1 {
+      font-size: 24px;
+   }
+   .header-area {
+      height: 580px;
+   }
+   .hero_title .social_icons ul li {
+      display: inline-block;
+      margin: 5px auto;
+      margin-right: 12px;
+   }
+   .cta-area h2 {
+      font-size: 13px;
+   }
+   .cta-area p {
+      font-size: 12px;
+   }
+   .pad-box {
+      padding-left: 5%;
+   }
+   .tab_name {
+      font-size: 14px;
+   }
+   .btn-mr {
+      margin-right: 0;
+   }
+   .about-name {
+      font-size: 24px;
+      height: 130px;
+   }
+   .aboutMain {
+      padding: 20px 20px;
+   }
+   .about-info ul .tab {
+      float: left;
+   }
+   .about-frame .info_content h2 {
+      font-size: 14px;
+   }
+   .project_filter_menu ul li {
+      font-size: 12px;
+   }
+   .about-frame .info_content {
+      padding: 20px;
+   }
+   .about-description h4 {
+      font-size: 13px;
+   }
+   .profile-list .title {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 4px;
+   }
+   .profile-list .cont {
+      display: block;
+      margin-left: 0;
+      text-align: left;
+      margin-top: 0;
+   }
+   .aboutMain {
+      height: 800px;
+   }
+   .progressbar h4 {
+      text-transform: capitalize;
+      font-size: 15px;
+   }
+   .percentCount {
+      margin-top: -38px;
+      font-size: 15px;
+   }
+   .single-skill-bar h3 {
+      font-size: 20px;
+   }
+}
+
+@media only screen and (max-width: 280px) {
+   .skill>p {
+      font-size: 11px;
+   }
+   .skill-bar span,
+   .skill-bar-right span {
+      font-size: 11px;
+   }
+   #skill .row {
+      padding-left: 0;
+      padding-right: 0;
+   }
+   .header-area {
+      height: 430px;
+   }
+   .header-content {
+      padding-top: 110px;
+   }
+   .typed {
+      font-size: 15px;
+   }
+   .hero_title .another-1 {
+      font-size: 15px;
+      margin-bottom: 5px;
+   }
+   .hero_title .social_icons ul li a {
+      font-size: 12px;
+   }
+   label #btn,
+   label #cancel {
+      margin-right: 20px;
+   }
+   .hero_title .first {
+      margin-bottom: 15px;
+   }
+   .hero_title .first .another {
+      font-size: 20px;
+   }
+   .progressbar h4 {
+      text-transform: capitalize;
+      font-size: 15px;
+   }
+   .percentCount {
+      margin-top: -38px;
+      font-size: 15px;
+   }
+   .single-team-item .mc-footer a {
+      width: 35px;
+      height: 35px;
+      font-size: 18px;
+      line-height: 35px;
+   }
+   a.footer-icon-style {
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+   }
+   .about-name {
+      font-size: 24px;
+      height: 130px;
+   }
+   .aboutMain {
+      padding: 20px 20px;
+   }
+   .about-info ul .tab {
+      float: left;
+   }
+   .about-frame .info_content h2 {
+      font-size: 14px;
+   }
+   .about-frame .info_content {
+      padding: 20px;
+   }
+   .profile-list .title {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 4px;
+   }
+   .aboutMain {
+      height: 800px;
+   }
+   .profile-list .cont {
+      display: block;
+      margin-left: 0;
+      text-align: left;
+      margin-top: 0;
+   }
+   .single-skill-bar h3 {
+      font-size: 20px;
+   }
+   .project_filter_menu ul li {
+      font-size: 12px;
+   }
+}
+
